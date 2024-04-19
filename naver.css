@@ -1,0 +1,119 @@
+/*아이콘*/
+.container
+{
+    display: flex;
+    flex-direction:row;
+}
+.item1
+{
+    margin-left:10%;
+
+}
+.item3
+{
+    margin-left:70%;
+}
+.container1
+{
+    
+    display: flex;
+    flex-direction: row;
+    margin-left:35% ;
+
+}
+
+/*검색창*/
+header2
+{
+      
+       background-color: white;
+       display: flex;
+       align-items: center;
+       padding-left: 30%; ;
+}
+ header2 >div.search
+   {
+       margin-left: 1%;
+       border : 1px solid rgb(3,199,90);
+       justify-content: center;
+       width: 680px;
+       display: flex;
+       justify-content: flex-start;
+       align-items: center;
+       border-radius: 20px;
+       padding: 4px 10px;
+       background-color: white;
+   }
+   header2 >div.search>span
+   {
+       margin-inline-start: auto; 
+  }  
+  header2 >div.search>input
+  {
+  
+   margin-left: 10px;
+   border:  1px solid white;
+   font-size: 20px;
+  }
+       
+      .container1
+      {
+        border: 1px solid white;
+        margin-left: 32%;
+        }
+      .container1 > div
+      {
+        margin:  10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .container1 > div > i
+      {
+        font-size: 40px;
+      }
+      /*뉴스 홈*/
+      .newsline1
+      {
+       border:  1px solid rgb(227,229,232);
+       border-radius: 10px;
+       padding: 5px 15px;
+       padding-bottom: 10px;
+   }
+      .newsline2
+      {
+       border: 1px solid white;
+       background-color:rgb(245,247,248);
+       padding: 12px;  
+       display: flex;
+       flex-direction: row;
+      }
+      /*로그인*/
+      div.screensum
+      {
+           display: flex;
+           margin-left:20%;
+      }
+      div.screensum>div.login
+      {
+           border: 1px solid rgb(227,229,232);
+           padding: 10px;
+           border-radius: 10px;
+      }
+      /*뉴스홈 세부내용배치*/
+      
+      .newsline4
+      {
+       border: 1px solid white;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+
+      }
+    .newsline5
+    {
+       border: 1px solid white;
+       padding: 10px;
+       display: flex;
+       justify-content: space-between;
+    }
